@@ -1,7 +1,7 @@
 var gulp = require("gulp");
 
 
-gulp.task("0-ts", function (callback) {
+gulp.task("0-transpile", function (callback) {
     "use strict";
     var spawn = require('child_process').spawn;
     var ls;
@@ -9,7 +9,7 @@ gulp.task("0-ts", function (callback) {
         ls = spawn('cmd.exe', ['/c', 'tsc -w']);
     }
     else {
-        ls = spawn('sh', ['-c', 'tsc']);
+        ls = spawn('sh', ['-c', 'tsc -w']);
     }
 
 
