@@ -1,0 +1,19 @@
+{
+  "name": "node-api-seed",
+  "version": "0.0.1",
+  "description": "node api seed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidlynx/node-api-seed.git"
+  },
+  "author": "Mohammed Hamdoune (sidlynx@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidlynx/node-api-seed/issues"
+  },
+  "homepage": "https://github.com/sidlynx/node-api-seed#readme"
+}
