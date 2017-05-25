@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sidlynx/node-api-seed/issues"
   },
-  "homepage": "https://github.com/sidlynx/node-api-seed#readme"
+  "homepage": "https://github.com/sidlynx/node-api-seed#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
