@@ -13,7 +13,7 @@ export class EntityFactory<T extends Entity> extends Factory{
 
     }
     deleteUnsafe(t:T){
-        
+
     }
 
     isSaved(t:T){
