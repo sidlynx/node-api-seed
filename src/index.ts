@@ -1,1 +1,3 @@
-console.log("Mohammed Hamdoune");
+import {Application} from "./Application";
+
+Application.getInstance().run();
